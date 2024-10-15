@@ -1,0 +1,176 @@
+/* Configuración de la caja y fuente base */
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Estilo del body */
+body {
+    background-image: url(https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/08/one-piece_0.jpg?tf=1200x1200);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    color: #333; /* Color de texto predeterminado */
+}
+
+/* Estilo del contenedor negro */
+.velo-negro {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo del encabezado */
+.header {
+    display: flex;
+    justify-content: center;
+      font-family: "Cuprum", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    
+      
+      
+}
+
+h1 {
+    background-color: rgb(141, 132, 108);
+    
+    font-size: 8rem;
+    color: rgb(75, 11, 24);
+    margin: 0; /* Aseguramos que no haya margen */
+    
+    
+        font-family: "Agdasima", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    
+        font-family: "Agdasima", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+
+.h2{
+   
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        
+            font-family: "Agdasima", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+          
+          
+          
+            font-family: "Agdasima", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            
+                font-family: "Agdasima", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+             
+                font-family: "Agdasima", sans-serif;
+                font-weight: 700;
+                font-style: normal;
+            
+          
+
+      
+}
+/* Estilo de la navegación */
+nav {
+    margin: 3rem 0 8rem 0;
+    background-color: rgb(193, 146, 57);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem; /* Reducido para mejorar la legibilidad */
+    font-size: 2rem;
+}
+
+nav a {
+    color: #333;
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s, font-size 0.3s; /* Transiciones más rápidas */
+}
+
+nav a:hover {
+    color: #ffbc36;
+    font-size: 30px;
+}
+
+/* Estilo de las cajas de contenido */
+.caja {
+    font-size: 18px;
+    font-family: 'Lucida Sans', sans-serif;
+    background-color: rgb(108, 91, 62);
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+
+/* Estilo de las imágenes */
+.img {
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 300px;
+    height: 370px;
+    float: right;
+}
+
+/* Estilo de los personajes */
+.personaje {
+    border-radius: 1rem;
+    background-color: #8e2d2d;
+    margin: 2rem;
+    padding: 2rem;
+    float: right;
+}
+
+/* Estilo del contenedor de personajes */
+.personajes {
+    display: grid; /* Usamos grid en lugar de un prefijo específico */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem; /* Espacio entre elementos */
+}
+
+/* Estilo de los nombres de los personajes */
+.personaje-nombre {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilo de la imagen centrada */
+.center {
+    display: block;
+    margin: 10px auto; /* Simplificado */
+    width: 50%;
+}
+
+/* Estilo del pie de página */
+.footer {
+    background-color: rgb(114, 84, 6);
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* Estilo para íconos sociales */
+.social {
+    width: 70px;
+    height: 70px;
+}
